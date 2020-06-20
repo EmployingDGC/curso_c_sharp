@@ -25,6 +25,14 @@ namespace Aula1
             string  x14 = "Davi GC";         // |       | Conjunto de caracteres
             object  x15 = 10;                // |       | Variável genérica
 
+            // Nomes de variáveis
+
+            string lastName;  // Camel Case (Parâmetros de metodos, variáveis de métodos)
+
+            string LastName;  // Pascal Case (namespaces, classes, properties, métodos)
+
+            string _lastName; // Camel Case com underline (atributos "internos" da classe)
+
             Console.WriteLine(x1);
             Console.WriteLine(x2);
             Console.WriteLine(x3);
